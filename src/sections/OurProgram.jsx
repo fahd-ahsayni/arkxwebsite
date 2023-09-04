@@ -9,37 +9,39 @@ import ArrowSvg from "../assets/ourPrograms/scribble.svg";
 export default function OurProgram() {
   return (
     <div className="py-16">
+      
       <div className="m-auto px-6 mg:px-0 text-center mb-20 md:w-8/12 lg:w-6/12">
         <h2 className="text-4xl font-bold text-gray-800 md:text-center text-start">
           Our <span className="text-orange-500">Programs</span>
         </h2>
       </div>
+
       {/* START MERN STACK */}
       <div className="container m-auto space-y-8 px-6 text-gray-500 md:px-12 lg:px-20">
         <div className="justify-center gap-6 text-center md:flex md:text-left lg:items-center lg:gap-16">
           <div className="order-last mb-6 space-y-6 md:mb-0 md:w-6/12 lg:w-6/12">
-            <h2 className="text-4xl font-bold text-gray-800 md:text-5xl dark:text-white">
+            <h2 className="text-4xl font-bold text-gray-800 md:text-5xl">
               Full-Stack JavaScript MERN
             </h2>
-            <div className="divide-y space-y-4 divide-gray-100 dark:divide-gray-800">
+            <div className="divide-y space-y-4 divide-gray-100">
               <div className="mt-8 flex gap-4 md:items-center">
-                <div className="w-12 h-12 flex justify-center items-center gap-4 rounded-full bg-sky-100 dark:bg-teal-900/20">
+                <div className="w-12 h-12 flex justify-center items-center gap-4 rounded-full bg-sky-100">
                   <img src={ReactLogo} className="h-8 w-auto" alt="react js" />
                 </div>
                 <div className="w-5/6">
                   <div className="relative">
                     <div className="absolute -left-2 w-full h-full bg-gradient-to-r from-sky-500/50 via-sky-500/20 to-transparent" />
-                    <h4 className="font-semibold relative text-lg text-gray-700 dark:text-indigo-300">
+                    <h4 className="font-semibold relative text-lg text-gray-700">
                       Unleash the Power of MERN Stack
                     </h4>
                   </div>
-                  <p className="text-gray-500 dark:text-gray-400">
+                  <p className="text-gray-500">
                     MongoDB, Express.js, React.js, and Node.js.
                   </p>
                 </div>
               </div>
             </div>
-            <p className="text-lg text-gray-600 dark:text-gray-300">
+            <p className="text-lg text-gray-600">
               With this powerful combination, you will be able to create{" "}
               <strong className="font-bold">modern &#127775;</strong> and{" "}
               <strong className="font-bold">high-performing &#9889;</strong>{" "}
@@ -92,32 +94,33 @@ export default function OurProgram() {
         </div>
       </div>
       {/* END MERN STACK */}
+
       {/* START JAVA / ANGULAR */}
       <div className="container mt-28 m-auto space-y-8 px-6 text-gray-500 md:px-12 lg:px-20">
         <div className="justify-center gap-6 text-center md:flex md:text-left lg:items-center lg:gap-16">
           <div className="mb-6 space-y-6 md:mb-0 md:w-6/12 lg:w-6/12">
-            <h2 className="text-4xl font-bold text-gray-800 md:text-5xl dark:text-white">
+            <h2 className="text-4xl font-bold text-gray-800 md:text-5xl">
               Full-Stack Angular, Java and Spring
             </h2>
-            <div className="divide-y space-y-4 divide-gray-100 dark:divide-gray-800">
+            <div className="divide-y space-y-4 divide-gray-100">
               <div className="mt-8 flex gap-4 md:items-center">
-                <div className="w-12 h-12 flex justify-center items-center gap-4 rounded-full bg-red-100 dark:bg-teal-900/20">
+                <div className="w-12 h-12 flex justify-center items-center gap-4 rounded-full bg-red-100">
                   <img src={AngularLogo} className="h-8 w-auto" alt="react js" />
                 </div>
                 <div className="w-5/6">
                   <div className="relative">
                     <div className="absolute -left-2 w-full h-full bg-gradient-to-r from-red-500/50 via-red-500/20 to-transparent" />
-                    <h4 className="font-semibold relative text-lg text-gray-700 dark:text-indigo-300">
+                    <h4 className="font-semibold relative text-lg text-gray-700">
                       Embrace the Potential of Angular & Java
                     </h4>
                   </div>
-                  <p className="text-gray-500 dark:text-gray-400">
+                  <p className="text-gray-500">
                     Empowering You to Build Robust and Dynamic Web Applications.
                   </p>
                 </div>
               </div>
             </div>
-            <p className="text-lg text-gray-600 dark:text-gray-300">
+            <p className="text-lg text-gray-600">
               With the winning combination of Angular, Java and Spring you will
               unlock the ability to create{" "}
               <strong className="font-bold">modern &#128165;</strong>,{" "}
@@ -179,6 +182,7 @@ export default function OurProgram() {
         </div>
       </div>
       {/* END JAVA / ANGULAR */}
+
     </div>
   );
 }
