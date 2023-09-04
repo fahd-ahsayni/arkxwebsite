@@ -2,7 +2,7 @@ import videoCover from "../assets/cover.jpg"
 
 export default function VideoMockUp() {
   return (
-    <div className="absolute -bottom-12 z-10">
+    <div className="absolute -bottom-24 z-10">
       <div className="relative mt-12 w-[600px] h-[400px]">
         <div className="relative mx-auto w-full rounded-lg">
           <button

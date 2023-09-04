@@ -23,6 +23,9 @@ export default function OurProgram() {
             </h2>
             <div className="divide-y space-y-4 divide-gray-100 dark:divide-gray-800">
               <div className="mt-8 flex gap-4 md:items-center">
+                <div className="w-12 h-12 flex justify-center items-center gap-4 rounded-full bg-sky-100 dark:bg-teal-900/20">
+                  <img src={ReactLogo} className="h-8 w-auto" alt="react js" />
+                </div>
                 <div className="w-5/6">
                   <div className="relative">
                     <div className="absolute -left-2 w-full h-full bg-gradient-to-r from-sky-500/50 via-sky-500/20 to-transparent" />
@@ -98,6 +101,9 @@ export default function OurProgram() {
             </h2>
             <div className="divide-y space-y-4 divide-gray-100 dark:divide-gray-800">
               <div className="mt-8 flex gap-4 md:items-center">
+                <div className="w-12 h-12 flex justify-center items-center gap-4 rounded-full bg-red-100 dark:bg-teal-900/20">
+                  <img src={AngularLogo} className="h-7 w-auto" alt="react js" />
+                </div>
                 <div className="w-5/6">
                   <div className="relative">
                     <div className="absolute -left-2 w-full h-full bg-gradient-to-r from-red-500/50 via-red-500/20 to-transparent" />
@@ -155,7 +161,7 @@ export default function OurProgram() {
               />
               <img
                 src={ArrowSvg}
-                className="h-24 -scale-x-[1] w-auto absolute -right-3 -bottom-20 rotate-[-20deg]"
+                className="h-24 -scale-x-[1] w-auto absolute -right-12 lg:-right-3 -bottom-20 rotate-[-20deg]"
                 alt=""
               />
             </div>

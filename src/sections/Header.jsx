@@ -2,12 +2,20 @@ import ArrowSvg from "../assets/arrow.svg";
 import RocketSvg from "../assets/rocket.svg";
 import MessageBox from "../components/MessageBox";
 import VideoMockUp from "../components/VideoMockUp";
-
 import messages from "../data/messages";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 export default function Header() {
+  const [text] = useTypewriter({
+    words: ["Individuals", "Organizations"],
+    loop: 0,
+    typeSpeed: 90,
+    deleteSpeed: 30,
+    delaySpeed: 2000,
+  });
+
   return (
-    <section className="w-screen h-screen background-mesh">
+    <section className="w-screen hidden lg:block h-screen z-0 background-mesh">
       <div className="flex pt-32 flex-col justify-center items-center w-full h-full hero-pattern">
         <div className="max-w-7xl mx-auto relative">
           {messages.map((items, key) => (
@@ -28,10 +36,12 @@ export default function Header() {
           />
 
           <h3 className="font-bold mt-8 text-center text-5xl text-gray-50">
-            Future-Proof
-            <span className="w-1/2 font-bold text-5xl text-orange-500">
-              {" "}
-              Individuals
+            Future-Proof{" "}
+            <span
+              className={`w-1/2 font-bold text-5xl text-orange-500`}
+            >
+              {text}
+              <Cursor cursorColor="#fff" cursorStyle="_" />
             </span>
           </h3>
           <p className="text-center text-lg pb-4 mt-6 text-gray-100">
@@ -41,10 +51,8 @@ export default function Header() {
             </span>{" "}
             &#128640; pathways in technology accessible at scale.
           </p>
-          <div className="mt-8 w-full flex justify-center items-center">
-            <button className="bg-orange-500 transition-all duration-[0.5s] ease-out rounded px-8 py-2 text-white font-medium hover:shadow-lg hover:shadow-orange-600/40">
-              About Ark-X
-            </button>
+          <div className="mt-16 w-full flex justify-center items-center">
+            <button className="btn btn-wide btn-primary hover:shadow-lg hover:shadow-orange-600/40 transition-all duration-[0.5s] ease-out">About Ark-X</button>
           </div>
         </div>
       </div>

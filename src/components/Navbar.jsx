@@ -1,17 +1,17 @@
-import arkxLogo from "../assets/arkx.png";
+import arkxLogo from "../assets/arkxacademy.png";
 import ReactLogo from "../assets/react.png";
 import AngularLogo from "../assets/angular.png";
-import JobinTechLogo from "../assets/jobintech.png"
+import JobinTechLogo from "../assets/jobintech.png";
 
 export default function Navbar() {
   return (
-    <div className="navbar flex items-center justify-center pt-8 absolute px-32">
+    <div className="navbar shadow-2xl z-10 bg-gray-500/20 backdrop-blur-sm absolute top-0 left-0 px-0 lg:px-32">
       <div className="navbar-start">
         <div className="dropdown">
-          <label tabIndex={0} className="btn btn-ghost lg:hidden">
+          <label tabIndex={0} className="btn btn-ghost btn-circle text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5 text-gray-100 hover:text-white"
+              className="h-5 w-5"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -20,7 +20,7 @@ export default function Navbar() {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                d="M4 6h16M4 12h8m-8 6h16"
+                d="M4 6h16M4 12h16M4 18h7"
               />
             </svg>
           </label>
@@ -29,80 +29,58 @@ export default function Navbar() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Home</a>
+              <a>Homepage</a>
             </li>
             <li>
-              <a>Ark-x Academy</a>
-              <ul className="p-2">
-                <li>
-                  <a>Full Stack JavaScript ( MERN )</a>
-                </li>
-                <li>
-                  <a>Full Stack Java, Spring & Angular</a>
-                </li>
-              </ul>
+              <a>Portfolio</a>
             </li>
             <li>
-              <a>Testimonials</a>
+              <a>About</a>
             </li>
           </ul>
         </div>
-        <div className="btn btn-ghost normal-case text-xl">
-          <img
-            src={arkxLogo}
-            alt="ark x academy"
-            className="h-12 -mt-4 w-auto"
-          />
-        </div>
       </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          <li>
-            <a className="text-gray-100 text-base hover:text-white font-semibold">
-              Home
-            </a>
-          </li>
-          <li tabIndex={0} className="z-10">
-            <details>
-              <summary className="font-semibold text-base text-gray-100 hover:text-white">
-                Ark-x Academy
-              </summary>
-              <ul className="p-2 w-80">
-                <li>
-                  <a className="font-semibold flex justify-start items-center w-full">
-                    <img
-                      src={ReactLogo}
-                      alt="react js"
-                      className="h-8 w-auto"
-                    />
-                    <span>Full Stack JavaScript (MERN)</span>
-                  </a>
-                </li>
-                <li>
-                  <a className="font-semibold flex justify-start items-center w-full">
-                    {" "}
-                    <img
-                      src={AngularLogo}
-                      alt="angular"
-                      className="h-6 w-auto"
-                    />
-                    <span>Full Stack Java, Spring & Angular</span>
-                  </a>
-                </li>
-              </ul>
-            </details>
-          </li>
-          <li>
-            <a className="text-gray-100 hover:text-white font-semibold text-base">
-              Testimonials
-            </a>
-          </li>
-        </ul>
+      <div className="navbar-center">
+        <a className="btn btn-ghost normal-case text-xl">
+          <img src={arkxLogo} className="h-2/3 w-auto" alt="" />
+        </a>
       </div>
       <div className="navbar-end">
-        <a className="btn">
-          <img src={JobinTechLogo} alt="jobintech" className="h-8 w-auto"/>
-        </a>
+        <button className="btn btn-ghost btn-circle text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+            />
+          </svg>
+        </button>
+        <button className="btn btn-ghost btn-circle text-white">
+          <div className="indicator">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
+              />
+            </svg>
+            <span className="badge badge-xs badge-primary indicator-item"></span>
+          </div>
+        </button>
       </div>
     </div>
   );
