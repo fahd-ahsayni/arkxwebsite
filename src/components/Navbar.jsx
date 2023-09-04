@@ -1,7 +1,6 @@
 import arkxLogo from "../assets/arkxacademy.png";
 import ReactLogo from "../assets/react.png";
 import AngularLogo from "../assets/angular.png";
-import JobinTechLogo from "../assets/jobintech.png";
 
 export default function Navbar() {
   return (
@@ -26,16 +25,39 @@ export default function Navbar() {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-96"
           >
             <li>
-              <a>Homepage</a>
+              <a>Home</a>
             </li>
             <li>
-              <a>Portfolio</a>
+              <a>Our Programs</a>
+              <ul className="p-2">
+                <li className="">
+                  <a className="flex justify-start items-center w-full">
+                    <img
+                      src={ReactLogo}
+                      alt="react js"
+                      className="h-8 w-auto"
+                    />
+                    <span>Full Stack JavaScript (MERN)</span>
+                  </a>
+                </li>
+                <li>
+                  <a className="flex justify-start items-center w-full">
+                    {" "}
+                    <img
+                      src={AngularLogo}
+                      alt="angular"
+                      className="h-8 w-auto"
+                    />
+                    <span>Full Stack Java, Spring & Angular</span>
+                  </a>
+                </li>
+              </ul>
             </li>
             <li>
-              <a>About</a>
+              <a>Testimonials</a>
             </li>
           </ul>
         </div>

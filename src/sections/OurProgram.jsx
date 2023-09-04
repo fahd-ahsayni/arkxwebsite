@@ -102,7 +102,7 @@ export default function OurProgram() {
             <div className="divide-y space-y-4 divide-gray-100 dark:divide-gray-800">
               <div className="mt-8 flex gap-4 md:items-center">
                 <div className="w-12 h-12 flex justify-center items-center gap-4 rounded-full bg-red-100 dark:bg-teal-900/20">
-                  <img src={AngularLogo} className="h-7 w-auto" alt="react js" />
+                  <img src={AngularLogo} className="h-8 w-auto" alt="react js" />
                 </div>
                 <div className="w-5/6">
                   <div className="relative">
@@ -143,7 +143,7 @@ export default function OurProgram() {
               <div className="w-28 bottom-0 bg-red-200 filter blur-2xl rounded-full h-28 absolute" />
               <img
                 src={AngularLogo}
-                className="h-24 bottom-0 w-auto animate-pulse rounded-xl object-cover object-top"
+                className="h-28 bottom-0 w-auto animate-pulse rounded-xl object-cover object-top"
                 width={640}
                 height={640}
                 alt="react js"
