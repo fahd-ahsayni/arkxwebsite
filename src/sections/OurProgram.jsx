@@ -97,7 +97,7 @@ export default function OurProgram() {
         <div className="justify-center gap-6 text-center md:flex md:text-left lg:items-center lg:gap-16">
           <div className="mb-6 space-y-6 md:mb-0 md:w-6/12 lg:w-6/12">
             <h2 className="text-4xl font-bold text-gray-800 md:text-5xl dark:text-white">
-              Full-Stack Angular, Java & Spring
+              Full-Stack Angular, Java and Spring
             </h2>
             <div className="divide-y space-y-4 divide-gray-100 dark:divide-gray-800">
               <div className="mt-8 flex gap-4 md:items-center">
@@ -132,7 +132,7 @@ export default function OurProgram() {
               interactivity using <strong className="font-bold">Angular</strong>
               , our{" "}
               <strong className="font-bold">
-                Full-Stack Angular, Java & Spring
+                Full-Stack Angular, Java and Spring
               </strong>{" "}
               Program prepares you to excel in all aspects of Web Application
               Development.

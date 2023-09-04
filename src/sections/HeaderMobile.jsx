@@ -5,7 +5,7 @@ import videoCover from "../assets/cover.jpg";
 export default function HeaderMobile() {
   return (
     <div className="relative -z-0 block lg:hidden overflow-hidden background-mesh">
-      <div className="relative pt-32 pb-16 sm:pb-24 lg:pb-32 hero-pattern">
+      <div className="relative md:pt-32 pt-16 pb-16 sm:pb-24 lg:pb-32 hero-pattern">
         <main className="mx-auto mt-16 max-w-7xl px-4 sm:mt-24 sm:px-6 lg:mt-32">
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
             <div className="sm:text-center relative md:mx-auto md:max-w-2xl lg:col-span-6 lg:text-left">
@@ -29,7 +29,7 @@ export default function HeaderMobile() {
                   Individuals
                 </span>
               </h3>
-              <p className="text-center text-lg pb-4 mt-6 text-gray-100">
+              <p className="text-center pb-4 mt-6 text-gray-100">
                 Make{" "}
                 <span className="font-semibold rounded-b-[-50%] pb-2 text-white">
                   world-class career
@@ -42,7 +42,7 @@ export default function HeaderMobile() {
                 </button>
               </div>
             </div>
-            <div className="relative mt-12 sm:mx-auto sm:max-w-lg lg:col-span-6 lg:mx-0 lg:mt-0 lg:flex lg:max-w-none lg:items-center">
+            <div className="relative mt-24 sm:mx-auto sm:max-w-lg lg:col-span-6 lg:mx-0 lg:mt-0 lg:flex lg:max-w-none lg:items-center">
               <div className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
                 <button
                   type="button"

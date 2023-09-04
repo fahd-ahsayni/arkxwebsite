@@ -26,7 +26,7 @@ export default function Header() {
           </h1>
           <img
             src={ArrowSvg}
-            className="h-16 absolute top-20 -right-12 rotate-45 animate-pulse"
+            className="h-16 absolute top-20 -right-10 rotate-45 animate-pulse"
             alt="arrow"
           />
           <img

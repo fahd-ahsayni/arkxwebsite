@@ -14,11 +14,11 @@ export default function Features() {
             By Ebracing the reskilling revolution
           </h4>
         </div>
-        <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-16 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {features.map(({ title, text, bold, colors }, key) => (
             <div
              key={key}
-              className="p-8 py-12 sm:p-12 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10"
+              className="p-4 py-12 sm:p-12 rounded-3xl bg-white border border-gray-100  bg-opacity-50 shadow-2xl shadow-gray-600/10"
             >
               <div className="space-y-16">
                 <div
