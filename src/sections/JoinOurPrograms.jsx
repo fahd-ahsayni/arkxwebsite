@@ -14,7 +14,7 @@ export default function JoinOurPrograms() {
             <br /> Apply Now and Unleash Your Full Potential
           </p>
           <div className="mt-8 w-full flex justify-center items-center">
-            <button className="btn btn-wide btn-primary hover:shadow-lg hover:shadow-orange-600/40 transition-all duration-[0.5s] ease-out">Embark with us</button>
+            <button className="btn text-white btn-wide btn-primary hover:shadow-lg hover:shadow-orange-600/40 transition-all duration-[0.5s] ease-out">Embark with us</button>
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@ import features from "../data/features";
 
 export default function Features() {
   return (
-    <section className="lg:mt-96 mt-0 py-16">
+    <section className="py-16">
       <div className="container m-auto space-y-8 px-6 md:px-12 lg:px-20">
         <div className="m-auto text-center mb-20 md:w-8/12 lg:w-6/12">
           {" "}

@@ -8,8 +8,8 @@ import ArrowSvg from "../assets/ourPrograms/scribble.svg";
 
 export default function OurProgram() {
   return (
-    <div className="py-16">
-      
+    <div className="py-16 mt-32">
+
       <div className="m-auto px-6 mg:px-0 text-center mb-20 md:w-8/12 lg:w-6/12">
         <h2 className="text-4xl font-bold text-gray-800 md:text-center text-start">
           Our <span className="text-orange-500">Programs</span>
@@ -104,7 +104,7 @@ export default function OurProgram() {
             </h2>
             <div className="divide-y space-y-4 divide-gray-100">
               <div className="mt-8 flex gap-4 md:items-center">
-                <div className="w-12 h-12 flex justify-center items-center gap-4 rounded-full bg-red-100">
+                <div className="w-12 h-12 flex justify-center items-center gap-4 rounded-full bg-rose-100">
                   <img src={AngularLogo} className="h-8 w-auto" alt="react js" />
                 </div>
                 <div className="w-5/6">

@@ -52,7 +52,7 @@ export default function Header() {
             &#128640; pathways in technology accessible at scale.
           </p>
           <div className="mt-16 w-full flex justify-center items-center">
-            <button className="btn btn-wide btn-primary hover:shadow-lg hover:shadow-orange-600/40 transition-all duration-[0.5s] ease-out">About Ark-X</button>
+            <button className="btn text-white btn-wide btn-primary hover:shadow-lg hover:shadow-orange-600/40 transition-all duration-[0.5s] ease-out">About Ark-X</button>
           </div>
         </div>
       </div>

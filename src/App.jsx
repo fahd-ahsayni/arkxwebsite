@@ -4,6 +4,8 @@ import OurProgram from "./sections/OurProgram";
 import Navbar from "./components/Navbar"
 import HeaderMobile from "./sections/HeaderMobile";
 import JoinOurPrograms from "./sections/JoinOurPrograms";
+import Partners from "./sections/Partners";
+import OurKeyActivities from "./sections/OurKeyActivities";
 
 export default function App() {
   return (
@@ -11,9 +13,11 @@ export default function App() {
       <Navbar />
       <HeaderMobile />
       <Header />
+      <Partners />
       <Features />
       <OurProgram />
       <JoinOurPrograms />
+      <OurKeyActivities />
     </>
   );
 }
