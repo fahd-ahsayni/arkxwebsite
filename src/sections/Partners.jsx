@@ -40,7 +40,7 @@ export default function Partners() {
               >
                 <img
                   src={partnerLogo}
-                  className="contrast-0 h-12 w-auto transition group-hover:contrast-100 cursor-pointer"
+                  className="contrast-0 md:h-12 h-8 w-auto transition group-hover:contrast-100 cursor-pointer"
                   loading="lazy"
                   alt="logo airbnb"
                 />
