@@ -23,7 +23,7 @@ export default [
     styleBoxMessage: "-bottom-8 -left-80 rotate-6",
   },
   {
-    alt: "Hamza Debbarh",
+    alt: "Meryem Benchekroun",
     picture: MeryemPicture,
     message: "Lorem ipsum dolor sit amet consectetur.",
     styleBoxMessage: "-bottom-8 -right-80 flex-row-reverse -rotate-6",
