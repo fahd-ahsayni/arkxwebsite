@@ -11,7 +11,7 @@ export default function OurProgram() {
     <div className="py-16 mt-32">
 
       <div className="m-auto px-6 mg:px-0 text-center mb-20 md:w-8/12 lg:w-6/12">
-        <h2 className="text-4xl font-bold text-gray-800 md:text-center text-start">
+        <h2 className="text-2xl font-bold text-gray-800 md:text-4xl">
           Our <span className="text-orange-500">Programs</span>
         </h2>
       </div>

@@ -6,7 +6,7 @@ export default function Features() {
       <div className="container m-auto space-y-8 px-6 md:px-12 lg:px-20">
         <div className="m-auto text-center mb-20 md:w-8/12 lg:w-6/12">
           {" "}
-          <h2 className="text-4xl font-bold text-gray-800 md:text-center text-start">
+          <h2 className="text-2xl font-bold text-gray-800 md:text-4xl">
             How do we take African and Arab youth{" "}
             <span className="text-orange-500">into the future</span>?
           </h2>
